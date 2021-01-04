@@ -7,7 +7,8 @@ elementsStress = trussData.elementStress;
 supports       = trussData.support;
 externalForces = trussData.force;
 % primary graphic setting--------------------------------------------------
-h1 = figure(1); set(h1,'color',[.8 .9 .9],'toolbar','none','menubar','none',...
+% 'toolbar','none'
+h1 = figure(1); set(h1,'color',[.8 .9 .9],'menubar','none',...
     'NumberTitle','off','name','Defined truss by user');
 axes('PlotBoxAspectRatio',[3 4 4],'PlotBoxAspectRatioMode','manual',...
     'visible', 'off', 'DataAspectRatio',[1 1 1]);

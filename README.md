@@ -25,3 +25,4 @@ TrussPlotter(Tr, 1);  % Graphical visualization
 
 ```
 
+![Result of Analyzed Truss](../master/image/Truss1.jpg)
