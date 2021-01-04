@@ -1,25 +1,51 @@
-# Matlab Dynamic Programming 
+# Matlab Truss Finite Element Analysis (FEA / FEM) 
 
-MATLAB Code: Solve Fibonacci Numbers using **Dynamic Programming**, Memoization Implementation in MATLAB
+MATLAB Code: 2D Truss (planar truss) can be analyzed using FEM 
 
-
-1. **Fibo1.m: Fibonacci with Recursive approach:**
-    * Time Complexity:    O(2^n)
-    * Space Complexity:  O(2^n)
-	
-2. **Fibo2.m: Fibonacci with Dynamic programming (Memoization):**
-    * Time Complexity:     O(n)
-    * Space Complexity:   O(n)
-
-3. **Fibo3.m: Fibonacci with Matrix Exponentiation:**
-	* Time Complexity:     O(log(n))
 	
 	
 
 ## Usage
 
-Just run the **EVAL.m** file to compare run-time of the following three methods:
+Just run the **EVAL1.m** and **EVAL2.m**
 
-1. Fibo using ___Recursive method___
-2. Fibo using ___Dynamic programming___
-3. Fibo using ___Matrix Exponentiation___  (Fastest method)
+``` MATLAB
+%%  Truss Definition
+
+clc, clear
+
+T.node  = [0, 0; 0, 1; 1, 1];
+
+T.element  = [2, 3, 8e-5, 200e9; 1, 3, 8e-5, 200e9];
+
+T.force = [3, 1000, -90]; 
+
+T.support  = [1, 2, 0; 2, 2, 0];
+           
+%% FEM Analysis 
+
+Tr = TrussFEA(T);     % FEM Solver 
+TrussPlotter(Tr, 1);  % Graphical visualization
+
+%% Displaying Results
+
+fprintf('\n')
+Elements = Tr.element;
+
+for i = 1:size(Elements,1);    
+   fprintf('Element (%g) Elongation: %g um\n',i, Tr.elementElongation(i)*1e6)      
+end
+
+fprintf('\n')
+
+for i = 1:size(Elements,1);    
+   fprintf('Element (%g) Force     : %g  N\n',i, Tr.elementForce(i))
+end
+
+fprintf('\n')
+
+for i = 1:size(Elements,1);    
+   fprintf('Element (%g) Stress    : %g  MPa\n',i, Tr.elementStress(i)/1e6)
+end
+```
+

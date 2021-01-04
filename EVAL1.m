@@ -12,8 +12,8 @@ T.support  = [1, 2, 0; 2, 2, 0];
            
 %% FEM Analysis 
 
-Tr = TrussFEA(T);
-TrussPlotter(Tr, 1);
+Tr = TrussFEA(T);     % FEM Solver 
+TrussPlotter(Tr, 1);  % Graphical visualization
 
 %% Displaying Results
 
