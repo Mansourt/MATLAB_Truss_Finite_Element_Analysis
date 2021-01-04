@@ -48,5 +48,8 @@ Tr = TrussFEA(T); 		% FEM Solver
 TrussPlotter(Tr, 1);	% Graphical visualization
 
 ```
+<p align="center">
+  <img src="../master/image/Truss2.png" />
+</p>
 
 ![Result of Analyzed Truss](../master/image/Truss2.png)
