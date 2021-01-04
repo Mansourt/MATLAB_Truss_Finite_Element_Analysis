@@ -25,4 +25,4 @@ TrussPlotter(Tr, 1);  % Graphical visualization
 
 ```
 
-![Result of Analyzed Truss](../master/image/Truss1.jpg?raw=true "Result of Analyzed Truss")
+![Result of Analyzed Truss](../master/image/Truss1.png)
