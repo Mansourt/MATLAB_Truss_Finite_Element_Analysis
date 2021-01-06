@@ -1,6 +1,6 @@
 # Matlab Truss Finite Element Analysis (FEA / FEM) 
 
-MATLAB Code: 2D Truss (planar truss) can be analyzed using FEM 
+MATLAB Code: 2D Truss (planar truss) Analyzer using FEM 
 
 	
 	
