@@ -1,4 +1,7 @@
 function TrussPlotter(trussData,stateId)
+% Author: Mansour Torabi
+% Email: smtoraabi@ymail.com
+% -------------------------------------------------------------------------
 %% Data Extracing 
 nodes0         = trussData.node;
 nodesDis       = trussData.nodalDisplacement;

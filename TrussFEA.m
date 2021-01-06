@@ -1,4 +1,7 @@
 function trussData = TrussFEA(trussData)
+% Author: Mansour Torabi
+% Email: smtoraabi@ymail.com
+% -------------------------------------------------------------------------
 % "Truss analyzer using Finite Element Method (FEM)" 
 
 % trussData is a structure variable which contain all the truss data:
