@@ -1,8 +1,6 @@
 # Matlab Truss Finite Element Analysis (FEA / FEM) 
 
-MATLAB Code: 2D Truss (planar truss) Analyzer using FEM 
-
-	
+MATLAB Code: 2D Truss (planar truss) Analyzer toolbox using FEM 
 	
 
 ## Usage
@@ -52,3 +50,6 @@ TrussPlotter(Tr, 1);	% Graphical visualization
 <p align="center">
   <img src="../master/image/Truss2.png" />
 </p>
+
+## Contact
+Email: smtoraabi@ymail.com
