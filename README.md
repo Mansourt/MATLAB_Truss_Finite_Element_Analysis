@@ -55,7 +55,7 @@ TrussPlotter(Tr, 1);	% Graphical visualization
 Email: smtoraabi@ymail.com
 
 
-### Video Tutorial [ In Persian ]
+## Video Tutorial [ In Persian ]
 
 [1. Analysis of Planar Truss using Finite Element Method - Part 1: Theory](https://www.aparat.com/v/0ZBFo)
 
