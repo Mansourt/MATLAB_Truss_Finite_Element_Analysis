@@ -53,3 +53,12 @@ TrussPlotter(Tr, 1);	% Graphical visualization
 
 ## Contact
 Email: smtoraabi@ymail.com
+
+
+## Video Tutorial [In Persian]
+
+[1. Truss Analysis usign FEM - Part 1: Theory](https://www.aparat.com/v/0ZBFo)
+تحلیل سازه خرپا به روش المان محدود - بخش 1: تئوری
+
+[2. Truss Analysis using FEM - Part 2: Implementation In MATLAB](https://www.aparat.com/v/JoERK)
+تحلیل سازه خرپا به روش المان محدود - بخش 2: پیاده سازی در متلب MATLAB
